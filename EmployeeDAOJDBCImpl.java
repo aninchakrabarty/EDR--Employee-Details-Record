@@ -17,7 +17,7 @@ public class EmployeeDAOJDBCImpl implements EmployeeDAO
 
       public EmployeeDAOJDBCImpl()
       {
-            String url = "jdbc:derby://localhost:1527/EmployeeDB";
+            String url = "";
         String username = "public";
         String password = "tiger";
         try
